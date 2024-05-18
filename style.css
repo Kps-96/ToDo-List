@@ -1,0 +1,131 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, #eb53d7, #c34fce, #9c4ac1, #7544b2, #4e3da1, #3b4cab, #255ab2, #0066b6, #008dd3, #00b3e4, #00d8ed, #5ffbf1);
+}
+
+.container{
+    height: 97vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    background-color: white;
+    backdrop-filter:blur(50px);
+    width: 500px;
+    height: 550px;
+    border-radius: 30px;
+    box-shadow: black 10px 10px 50px;
+    
+}
+
+header{
+    
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+header h1{
+    display: inline-block;
+    padding: 10px;
+}
+
+header img{
+    width: 30px;
+    padding-left:15px ;
+}
+
+.input{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.input input{
+    height: 97%;
+    display: inline-block;
+}
+
+#input{
+    margin-left: 20px;
+    border-radius: 30px;
+    width: 60%;
+    padding-left: 20px;
+    border-bottom-right-radius:0px ;
+    border-top-right-radius:0px ;
+    font-size: 20px;
+}
+
+#btn{
+    border-radius: 30px;
+    width: 25%;
+    position: relative;
+    right: 30px;
+    background-color: orangered;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    top: 0px;
+}
+
+.output{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+ul li{
+    list-style: none;
+    font-size: 19px;
+    padding: 5px 0px 10px 20px;
+    color: black;
+    position: relative;
+    left: 15px;
+}
+
+
+ul li::before{
+    content: "";
+    background-image: url("/src/radio_button_unchecked_24dp_FILL0_wght400_GRAD0_opsz24.png");
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-size: cover;
+    left: -20px;
+    top: 0%;
+}
+
+ul li.checked{
+    text-decoration: line-through;
+}
+
+ul li.checked::before{
+    border-radius: 10px;
+    background-image: url("src/radio_button_checked_24dp_FILL0_wght400_GRAD0_opsz24\ \(1\).png")
+}
+
+ul li span{
+    position: absolute;
+    right: 25px;
+    top: 0%;
+    text-align: center;
+    align-items: center; 
+    padding: 2px;   
+    font-size: 30px;
+}
+
+ul li span:hover
+{
+    background-color: #d7d4d4;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/src/task-list_img.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <header>
+                <h1>ToDo List</h1>
+                <img src="/src/list_img.png" alt="List icon">
+            </header>
+            <div class="input">
+                <input type="text" placeholder="Add Your task" id="input">
+                <input type="button" value="ADD" id="btn" onclick="add()">
+            </div>
+            <div class="output">
+                <ul id="list">
+                    <!-- <li class="checked">task</li> -->
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <!--Javascript src-->
+    <script src="script.js"></script>
+</body>
+</html>
