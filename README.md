@@ -2,7 +2,7 @@
 
 A simple and intuitive ToDo List application built using HTML5, CSS3, and JavaScript. This project helps users manage their daily tasks efficiently with features such as adding, deleting, and marking tasks as completed.
 
-![ToDo List App Screenshot](/src/Screenshot%202024-05-17%20120008.png)
+![ToDo List App Screenshot](/Screenshot%202024-05-17%20120008.png)
 
 ## 🚀 Features
 
