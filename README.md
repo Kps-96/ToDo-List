@@ -36,24 +36,6 @@ Follow these steps to get a copy of the project up and running on your local mac
 
 Make sure you have a modern web browser installed (e.g., Chrome, Firefox, Edge).
 
-### Installation
-
-1. **Clone the repository:**
-
-```bash
-git clone https://github.com/Kps-96/ToDo-List.git
-📜 Usage
-Add a Task:
-
-Type your task into the input field.
-Click the "Add" button or press "Enter" to add the task to the list.
-Delete a Task:
-
-Click the "Delete" button next to the task you want to remove.
-Mark a Task as Completed:
-
-Click the task to toggle its completed status.
-
 📝 License
 This project is licensed under the MIT License. See the LICENSE file for more information.
 
@@ -62,4 +44,7 @@ Email:
 kpsitmail007@gmail.com
 GitHub: https://github.com/Kps-96
 LinkedIn: https://www.linkedin.com/in/karuppasamy096/
+
+
+
 
